@@ -1,0 +1,527 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: font_hanh;
+    src: url(Museo500-Regular.otf);
+  }
+.html,body{
+    height: auto;
+    width: 100%;
+}
+.Lasles_VPN{
+    background-color:white;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.content_1_2_3_4{
+    width: 1141px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+}
+.content_1{
+    display: flex;
+    margin-top: 52px;
+    margin-bottom: 90px;
+    font-family: font_hanh;
+    font-size: 17px;
+    height: 44px;
+    width: 100%;
+    background-color:white;
+    
+}
+.content_1 .cot1_ct1 {
+    width: 147px;
+    margin: auto;
+}
+.content_1 img{
+    width: 150px;
+}
+
+.content_1 .cot2_ct1 {
+    
+    width: 751px;
+    margin: auto;
+    color: rgb(123, 126, 128);
+    
+}
+.content_1 .cot2_ct1 ul{
+    list-style: none;
+    display: flex;
+    margin-left: 140px;
+}
+.content_1 .cot2_ct1 li{
+    margin-right: 45px;
+    
+}
+.content_1 .cot3_ct1 {
+    display: flex;
+    width: 243px;
+    margin: auto;
+}
+.content_1 .cot3_ct1 button{
+    background-color: white;
+    border-radius: 20px ;
+    color: rgb(189, 64, 19);
+    width: 160px;
+    border: 1px rgb(189, 64, 19) solid;
+    height: 45px;
+    font-weight: 700;
+    font-size: 17px;
+    margin-left: 27px;
+}
+.content_1 .cot3_ct1 p{
+    color: black;
+    margin: auto;
+    margin-left: 0;
+    width: 87px;
+    font-weight: 900;
+}
+
+.content_2 {
+    width: 100%;
+    height: 410px;
+    display: flex;
+ }
+
+.content_2 .cot1_ct2 {
+    display: block;
+    width: 555px;
+
+}
+.content_2 .cot1_ct2 .tren_ct2 {}
+.content_2 .cot1_ct2 .tren_ct2 h6 {
+    font-family: font_hanh;
+    font-size: 50px;
+    margin-bottom: 47px;
+    
+}
+.content_2 .cot1_ct2 .tren_ct2  p{
+    font-family: font_hanh;
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: rgb(97, 100, 102);
+}
+.content_2 .cot1_ct2 .duoi_ct2  {}
+.duoi_ct2 button {
+    width: 200px;
+    height: 50px;
+    margin-top: 60px;
+    background-color: rgb(255, 58, 58);
+    color: white;
+    border-radius: 15px;
+    width: 250px;
+    border: 0px ;
+    font-size: 18px;
+    transition: 0.4s;
+    box-shadow: rgba(240, 14, 14, 0.25) 0px 54px 55px, rgba(241, 43, 43, 0.12) 0px -12px 30px, rgba(201, 53, 53, 0.829) 0px 4px 6px, rgba(240, 42, 42, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.duoi_ct2 button :hover{
+   color: rgb(236, 234, 234);
+}
+.content_2 .cot2_ct2 {
+    width:611.5px ;
+}
+.content_2 img {
+    width: 611.5px;
+    height: 385.4px;
+}
+.content_3{
+    height: 201px;
+    width: 100%;
+    display: flex;
+    margin-top: 46px;
+    box-shadow: rgba(48, 46, 46, 0.25) 0px 54px 55px, rgba(233, 55, 55, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.content_3 .cot1_ct3{
+    width: 380.3px;
+    display: flex;
+    margin-top: 73px;
+}
+.content_3 .cot2_ct3{
+    width: 381px;
+    display: flex;
+    margin-top: 73px;
+}
+.content_3 .cot3_ct3{
+    width: 380.3px;
+    margin-top: 73px;
+    display: flex;
+}
+.content_3 .phai_cot1_ct3 p {
+    font-size: 18px;
+    margin-top: 5px;
+    font-family:font_hanh;
+    color: rgb(83, 75, 75);
+} 
+.content_3 .phai_cot1_ct3 h6 {
+    font-size: 25px;
+    font-family: font_hanh;
+
+} 
+.content_3 img{
+    width: 55px;
+    height: 55px;
+    margin-right: 17px;
+    margin-left:130px ;
+    
+}
+.ngach{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 65%;
+    width: 1px;
+    border-left: 2px solid rgb(236, 230, 230);
+    /*display: inline-block;*/    
+    /*margin: 0 auto;*/
+}
+.content_4 {
+    width: 100%;
+    display: flex;
+    margin-top: 95px;
+   
+}
+.content_4 .cot1_ct4 {
+    width: 510px;
+    margin-right: 170px;
+}
+.content_4 .cot1_ct4 img{
+    width: 510px;
+    height: 415.5px;
+}
+.content_4 .cot2_ct4 {
+    font-family: font_hanh;
+}
+.tieude{
+    font-size: 35px;
+    font-family: font_hanh;
+    color: black;
+    font-weight: 800;    
+    
+}
+.content_4 .cot2_ct4 .tieude {
+    margin-bottom: 40px;
+}
+.content_4 .cot2_ct4 p{
+    color: rgb(88, 93, 97);
+}
+.content_4 .cot2_ct4  .mucluc p{
+    color: rgb(88, 93, 97);
+    margin-bottom: 24px;
+    margin: auto;
+    margin-left: 16px;
+}
+.mucluc {
+    margin-top: 12px;
+    display: flex;
+}
+.mucluc p{
+    color: rgb(88, 93, 97);
+    margin-bottom: 24px;
+    margin: auto;
+    margin-left: 16px;
+}
+.content_5_6{
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:  #dde3e9;
+    
+}
+.content_5{
+    width: 1140px;  
+    height: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content_5 .tren_ct5 {
+    width: 530px;
+    margin: auto;
+    padding-top: 92px;
+    
+}
+.content_5 .tren_ct5 h5,p{
+    text-align: center;
+}
+.content_5 .tren_ct5 h5{
+    margin-bottom: 24px;
+    
+}
+.content_5 .tren_ct5 p{
+    margin-bottom: 10px;
+    color: rgb(165, 171, 177);
+    font-family: font_hanh;
+    font-size: 15px;
+}
+
+.content_5 ._3cot {
+    margin: auto;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 782px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    display: flex;
+    
+}
+.content_5 ._3cot ._1cot {
+   width: 288px;
+   height: 782px;
+   margin-right: auto;
+   margin-left: 46px;
+   background-color: white;
+   text-align: center;
+   border-radius: 10px;
+   border:2px rgb(209, 205, 205) solid;
+   transition: 0.4s;
+}
+.content_5 ._3cot ._1cot:hover {
+   
+   border:2px rgb(233, 65, 65) solid;
+   
+
+}
+.content_5 ._3cot ._1cot .hopqua img{
+    width: 146px;
+    height: 166.5px;
+    
+}
+.content_5 ._3cot ._1cot .hopqua {
+   margin-bottom: 28px;
+   margin-top: 80px;
+}
+.content_5 ._3cot ._1cot h6{
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 39px;
+ }
+.content_5 ._3cot ._1cot button{
+    width: 142px;
+    height: 44px;
+    margin-bottom: 50px ;
+    border: 2px red solid;
+    border-radius: 20px;
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+    background-color:white;
+    transition: all 0.4s ease;
+}
+.content_5 ._3cot ._1cot button:hover  {
+   
+    background-color:rgb(226, 34, 34);
+    color: white;
+    border: 0px red solid;
+}
+.content_5 ._3cot ._1cot .mucluc {
+    margin-left: 52px;
+}
+.content_5 ._3cot ._1cot .mucluc{
+    margin-bottom: 33px;
+}
+.content_5 ._3cot ._1cot h5{
+    margin-top: 118px;
+    font-size: 28px;
+    margin-bottom: 22px;
+ }
+.content_6 
+{
+    background-color: white;
+    width: 100%;
+
+}
+.tren_ct6{
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 26px;
+
+}
+
+.tren_ct6  h5{
+   font-size: 32px;
+}
+.tren_ct6 p{
+    margin-bottom: 26px;
+    margin-top: 12px;
+    font-size: 17px;
+    color: black;
+    font-weight: 510;
+
+}
+.content_6 .giua_ct6{
+    width: 1140px;
+    margin-top: 20px;
+    /* 125*/
+    margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 10px;
+}
+.content_6 .giua_ct6 img{
+    width: 100%;
+}
+.content_6 .duoi_ct6{
+    display: flex;
+    width: 1140px;
+    height: 148.85px;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+.content_6 .duoi_ct6 img{
+    width: 198px;
+    height: 67.58px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.content_7 {
+    width: 100%;
+    height: 650px;
+
+}
+.content_7 .tren_ct6 {
+    margin-top: 45px;
+}
+.content_7 .tren_ct6 p {
+    color:rgb(133, 124, 124);
+    margin-bottom: 30px;
+    font-size: 17px;
+    
+}
+.content_7 .cuon{
+    width: 100%;
+    height: 304px;
+    margin-bottom: 148px;
+}
+.content_8 {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-top: 0px;
+    display: flex;
+    height: 258px;
+    background-color: white;
+    margin-bottom: 0px;
+}
+.content_8 .cot1_ct8 {
+    width: 400px;
+    margin-top: 65px;
+    margin-right: 350px;
+    margin-left: 260px;
+    display: block;
+}
+.content_8 .cot1_ct8 .tieude{
+  margin-bottom: 12px;
+  
+}
+.content_8 .cot1_ct8 p{
+   font-size: 18px;
+   
+   color: rgb(119, 104, 104);
+   text-align: start;
+   margin-bottom: 65px;
+   
+}
+.content_8 .cot2_ct8 button{
+      margin-top: 40%;
+      width: 200px;
+      height: 50px;
+      background-color: rgb(255, 58, 58);
+      color: white;
+      border-radius: 15px;
+      width: 250px;
+      border: 0px ;
+      font-size: 18px;
+      box-shadow: rgba(235, 70, 70, 0.25) 0px 54px 55px, rgba(228, 99, 99, 0.12) 0px -12px 30px, rgba(201, 53, 53, 0.829) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.content_9{
+    width: 1440px;
+    height: 345px;
+    background-color:  #dde3e9;
+    display: flex;
+    margin: auto;
+    
+ }
+.cot1_ct9{
+    width: 320px;
+    margin-left: 148px;
+    margin-right: 254px;
+    margin-top: 60px;
+}
+.cot1_ct9 img{
+        width: 150px;
+}
+.cot1_ct9 .logo{
+     margin-bottom: 30px;
+}
+.cot1_ct9 .icon{
+    display: flex;
+    width: 34px;
+    
+}
+.cot1_ct9 .icon img{
+    width: 70px;
+    margin-right: 6px;
+
+}
+.cot1_ct9 p{
+    text-align: start;
+    font-family: font_hanh;
+    color: rgb(112, 110, 110);
+    margin-bottom: 10px;
+}
+.cot1_ct9 .logo_cuoi img{
+     width: 130px;
+}
+.cot1_ct9 .logo_cuoi{
+    margin-top: 10px;
+}
+.cot2_ct9 {
+    width: 564px;
+    display: flex;
+    margin-top: 60px;
+}
+.cot2_ct9 ._1cot_ct9{
+    margin-right: 0px;
+    width: 190px;
+}
+._1cot_ct9 h3{
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-family: font_hanh;
+    font-size: 18px;
+}
+._1cot_ct9 ul li{
+   list-style: none;
+   margin-bottom: 12px;
+   font-family: font_hanh;
+   font-size: 15px;
+   color: rgb(59, 55, 51);
+}
+.myslide
+{
+ width: 600px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.myslide img
+{
+    width: 600px;
+}
+.myslide .carousel-indicators
+{
+    visibility: hidden; /* mất dấu gạch chân dưới ảnh */
+    /* == opacity :0;*/ 
+}
+
+
+
