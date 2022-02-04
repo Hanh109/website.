@@ -1,0 +1,276 @@
+*{margin: 0; padding: 0;} 
+body,html{
+    width: 100%;
+    height: 100%;
+   
+font-family: 'Dosis', sans-serif;
+}
+.body{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+::-webkit-scrollbar { 
+    display: none; 
+    
+
+}
+.top{
+   background:url(https://images6.alphacoders.com/115/thumb-1920-1150641.jpg);
+   background-size: cover;
+   width: 100%;
+   height: 100% ;
+ 
+
+}
+.nav-item{
+    margin-right: 15px;
+}
+
+.menutren{
+    background: transparent;
+    /* border-bottom: 1px rgb(221, 206, 206) solid; */
+}
+.noidung .tdto {
+    padding-top: 40%;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.noidung .tdto:after{
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: rgb(175, 175, 119);
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -50px;
+}
+.nutaction {
+    margin-top:10px;
+    background-color: rgb(97, 97, 12);
+    border: 0;
+    font-weight: 700;
+    color: white;
+}
+@media (max-width:576px){
+    *{
+    text-align: center;
+    padding-top: 10px;
+    /* font-size: 20px; */
+    /* font-size: 27px !important; */
+}
+
+a.btn.btn-danger.nutaction.nutaction5 {
+    margin-bottom: 14%;
+}
+
+.container-fluid.noidung {
+    /* background-position: center; */
+}
+
+h2.tdto {}
+
+a.btn.btn-danger.nutaction {
+    font-size: 0.4rem;
+}
+
+.noidung.trichdan {
+    font-size: 0.7rem;
+}
+
+h2.tdto .noidung {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+a.navbar-brand.logo {
+    font-size: 16px;
+}
+
+ul.nav.navbar-nav.float-xs-right.menutrenphai {
+    margin-right: 25px;
+}
+
+li.nav-item {
+    margin-right: -9px;
+}
+
+li.nav-item.active {}
+
+nav.navbar.navbar-light.bg-faded.menutren.navbar-fixed-top {
+    font-size: 10px;
+    padding-right: 0px;
+}
+    
+}
+.content2{
+    background-color: black;
+}
+.content2.noidung2{
+    padding-top:6%;
+}
+.noidung2 .tdto{
+    padding-top: 15%;
+    
+}
+.noidung2 {
+    padding-bottom: 7%;
+    color: white;
+
+}
+.noidung2 .tdto:after{
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: rgb(97, 97, 12);
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -50px;
+}
+.nutaction1{
+    background-color: white;
+    color: rgb(97, 97, 12);
+    font-weight: 700;
+    border: 0;
+}
+.noidung3 .tdto{
+    padding-top: 15%;
+}
+.noidung3{
+    padding-bottom: 7%;
+}
+.noidung3 .tdto:after{
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: rgb(97, 97, 12);
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: -30%;
+    margin-left: -50px;
+}
+.noidung3 .cot{
+
+    margin-top: 8%;
+}
+.noidung3 .tieude{
+   font-weight: 600;
+   font-size: 23px;
+}
+.noidung3 .iconify{
+    font-size: 50px;
+    color: rgb(97, 97, 12);
+}
+.noidung4 .anh{
+    margin-left: 0;
+    margin-right: 0;
+}
+.sp img{
+    width: 100%;
+    height: 100%;
+}
+.sp{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.sp .ten{
+  margin-top:27%;
+ 
+}
+
+
+.sp .goi{
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+    top: 0;
+    height: auto;
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+    text-align: center;
+    background-color:  rgb(112, 112, 87);
+
+}
+.sp .goi:hover{
+    opacity: 0.5;
+    font-weight: 700;
+    color: black;
+    font-size: 20px;
+}
+.noidung4 .anh{
+    padding: 0;
+}
+/* .noidung5 .tdto{
+    padding-top: 15%;
+} */
+.noidung5{
+    padding-bottom: 7%;
+    background-color:black ;
+    color: white;
+}
+.noidung .nutaction5{
+    background-color: white;
+    color:  rgb(112, 112, 87);
+    font-weight: 700;
+    
+}
+.noidung5 .chu{
+     padding-top: 15%;
+}
+.noidung6{
+    color: black;
+}
+.noidung6 .duoi{
+    padding-top: 3%;
+   
+}
+.noidung6 .iconify{
+    font-size: 50px;
+  
+}
+.noidung6 .duoi p{
+    margin-top: 3%;
+}
+
+
+
+/* kết thúc  */
+.end{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.nutaction5:hover{
+    color: white;
+}
+.nutaction:hover{
+    background-color:  rgb(187, 187, 83);;
+}
+.logodoimau{
+    color: black;
+    font-weight: 900;
+}
+.end a{
+    text-decoration: none;
+    color: rgb(112, 112, 87);
+}
+.end a:hover{
+    color: rgb(189, 189, 82);
+}
+.nenmenu{
+    border-bottom: 1px solid  rgb(112, 112, 87);
+    background-color:  rgb(233, 233, 173);
+    transition: 0.4s;
+}
