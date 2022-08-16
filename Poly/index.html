@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poly Shop</title>
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/Styles.css" />
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/img/" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="web">
+      <header class="header">
+        <div class="grid wide header__navbar-container">
+          <!-- đt pc -->
+          <div class="row header__navbar-section">
+            <!-- Giao diện thanh navbar   -->
+            <nav class="col header__navbar">
+              <!-- more trên mobile -->
+              <div class="header__navbar-wrap">
+                <!-- bấm vào dấu icon hiện ra menu list -->
+
+                <label
+                  for="header-navbar-input-show"
+                  class="header-navbar-more"
+                >
+                  <i class="fa-solid fa-bars header__navbar-more-icon"></i
+                ></label>
+                <input
+                  type="checkbox"
+                  name=""
+                  class="header__navbar-more-show"
+                  id="header__navbar-input-show"
+                />
+
+                <label
+                  for="header__navbar-input-show"
+                  class="header__navbar-overlay"
+                >
+                </label>
+
+                <nav class="header__navbar-menu">
+                  <div class="header__navbar-size">
+                    <!-- list danh mục sản phẩm -->
+                    <ul class="header__navbar-menu-list">
+                      <li
+                        class="header__navbar-menu-item header__navbar-menu-item--clicked"
+                      >
+                        <a href="" class="header__navbar-menu-desc">
+                          Phụ kiện
+                        </a>
+                      </li>
+                      <li class="header__navbar-menu-item">
+                        <a href="" class="header__navbar-menu-desc"> Áo </a>
+                      </li>
+                      <li class="header__navbar-menu-item">
+                        <a href="" class="header__navbar-menu-desc"> Quần </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- list danh sách sản phẩm -->
+                  <div class="row">
+                    <div class="header__navbar-product">
+                      <ul class="header__navbar-product-list">
+                        <li class="header__navbar-product-item">
+                          <img
+                            src="./assets/img/header__product1.jpg"
+                            alt=""
+                            class="header__navbar-product-img"
+                          />
+                          <a href="" class="header__navbar-product-desc"
+                            >Ba lô | Backpacks</a
+                          >
+                        </li>
+                        <li class="header__navbar-product-item">
+                          <img
+                            src="./assets/img/header__product1.jpg"
+                            alt=""
+                            class="header__navbar-product-img"
+                          />
+                          <a href="" class="header__navbar-product-desc"
+                            >Ba lô | Backpacks</a
+                          >
+                        </li>
+                        <li class="header__navbar-product-item">
+                          <img
+                            src="./assets/img/header__product1.jpg"
+                            alt=""
+                            class="header__navbar-product-img"
+                          />
+                          <a href="" class="header__navbar-product-desc"
+                            >Ba lô | Backpacks</a
+                          >
+                        </li>
+                        <li class="header__navbar-product-item">
+                          <img
+                            src="./assets/img/header__product1.jpg"
+                            alt=""
+                            class="header__navbar-product-img"
+                          />
+                          <a href="" class="header__navbar-product-desc"
+                            >Ba lô | Backpacks</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+
+              <!-- trên pc -->
+              <!--  logo -->
+              <div class="header__navbar-img">
+                <a href="" class="header__navbar-logo">
+                  <img
+                    src="./assets/img/header__logo.png"
+                    alt=""
+                    class="header__navbar-logo-img"
+                  />
+                </a>
+              </div>
+              <!-- list navbar  -->
+
+              <ul class="header__navbar-list">
+                <!-- 1 -->
+                <li class="header__navbar-item header__navbar-item--chose">
+                  <a
+                    class="header__navbar-link header__navbar-link--chose"
+                    href=""
+                    >Trang chủ</a
+                  >
+                </li>
+                <!-- 2 -->
+                <li class="header__navbar-item">
+                  <a href="" class="header__navbar-link"> Sản phẩm </a>
+                </li>
+                <!-- 3 -->
+                <li class="header__navbar-item">
+                  <a href="" class="header__navbar-link"> Store </a>
+                </li>
+                <!-- 4 -->
+                <li class="header__navbar-item">
+                  <a href="" class="header__navbar-link"> Giới thiệu </a>
+                </li>
+              </ul>
+              <!-- ô search -->
+              <div class="header__navbar-search">
+                <i
+                  class="fa-solid fa-magnifying-glass header__navbar-search-icon"
+                ></i>
+                <input
+                  type="text"
+                  class="header__navbar-input"
+                  placeholder="Tìm kiếm sản phẩm..."
+                />
+              </div>
+              <!-- search trên mobile -->
+              <div class="header__navbar-search-mobile">
+                <i
+                  class="fa-solid fa-magnifying-glass header__navbar-search-mobile-icon"
+                >
+                </i>
+              </div>
+              <!-- giỏ hảng  -->
+              <div class="header__navbar-cart">
+                <!-- nút chính  -->
+                <div class="header__navbar-cart-wrap">
+                  <i class="header__navbar-cart-icon fa-solid fa-cart-shopping">
+                  </i>
+                  <span class="header__navbar-cart-desc">Giỏ hàng</span>
+                </div>
+                <!-- sau khi nhấn vào icon hiện lên 1 bảng giỏ hàng  -->
+                <div class="header__cart-list">
+                  <div class="header__cart-head">
+                    <div class="header__cart-heading">GIỎ HÀNG</div>
+                  </div>
+                  <div class="header__cart-body">
+                    <i class="fa-solid fa-cart-plus header__cart-icon"></i>
+
+                    <span class="header__cart-body-desc"
+                      >Hiện chưa có sản phẩm</span
+                    >
+                  </div>
+                  <div class="header__cart-end">
+                    <div class="header__cart-value">
+                      <span class="header__cart-end-total">Tổng tiền</span>
+                      <span class="header__cart-end-money">0đ</span>
+                    </div>
+                    <button class="header__cart-button">Xem giỏ hàng</button>
+                  </div>
+                </div>
+              </div>
+              <!-- search mobile -->
+              <!-- <div class="header__navbar-search-mobile">
+                <i
+                  class="fa-solid fa-magnifying-glass header__navbar-search-mobile-icon"
+                ></i>
+              </div> -->
+              <!-- </div> -->
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- bắt đầu slide  -->
+      <div class="web__container">
+        <div class="grid wide">
+          <div class="row">
+            <div id="slideshow">
+              <div class="slide-wrapper">
+                <div class="slide">
+                  <img src="./assets/img/intro1.webp" class="slider-img" />
+                </div>
+                <div class="slide">
+                  <img src="./assets/img/intro2.webp" class="slider-img" />
+                </div>
+                <div class="slide">
+                  <img
+                    src="./assets/img/img__introduce3.jpg"
+                    class="slider-img"
+                  />
+                </div>
+                <div class="slide">
+                  <img
+                    src="./assets/img/img__introduce4.jpg"
+                    class="slider-img"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- hết slide -->
+          <!-- slide mobile  -->
+          <div id="slideshow-m">
+            <div class="container">
+              <section>
+                <img
+                  src="./assets/img/intro1.webp"
+                  alt=""
+                  class="slider-img-m"
+                />
+              </section>
+            </div>
+          </div>
+          <!-- heets slide mobile  -->
+          <div class="web__container-voucher grid wide">
+            <div class="web__container-voucher-heading">
+              ĐẶC QUYỀN CHO BẠN HÔM NAY!
+            </div>
+          </div>
+          <div class="grid wide">
+            <div class="web__container-voucher-list row">
+              <!-- 1 itemm  -->
+              <div class="web__container-voucher-item col l-3 m-6 c-12">
+                <div class="web__container-voucher-inner">
+                  <div class="web__container-voucher-item-heading">
+                    Poly giao hoả tốc , freeship 
+                  </div>
+                  <div class="web__container-voucher-item-desc">
+                    Giờ đây bạn có thể nhận hàng nhanh trong ngày mà không cần
+                    chờ đợi tại Hàm Trung
+                  </div>
+                </div>
+              </div>
+              <!-- 1 itemm  -->
+              <div class="web__container-voucher-item col l-3 m-6 c-12">
+                <div class="web__container-voucher-inner">
+                  <div class="web__container-voucher-item-heading">
+                    Tặng quà 
+                  </div>
+                  <div class="web__container-voucher-item-desc">
+                    Áp dụng đặc biệt cho đơn hàng từ 10.000 đồng. Nhanh tay
+                    lên nào
+                  </div>
+                  <div class="web__container-vourcher-item-copy">
+                    <button class="web__container-copy-btn">Sao chép mã</button>
+                  </div>
+                </div>
+              </div>
+              <!-- heets 1 item  -->
+              <!-- 1 itemm  -->
+              <div class="web__container-voucher-item col l-3 m-6 c-12">
+                <div class="web__container-voucher-inner">
+                  <div class="web__container-voucher-item-heading">
+                    Khuyến mãi 
+                  </div>
+                  <div class="web__container-voucher-item-desc">
+                    Mã giảm 2.000 đồng cho hoá đơn mua hàng trên 30.000 đồng. Đến ngay
+                    Poly
+                  </div>
+                  <div class="web__container-vourcher-item-copy">
+                    <button class="web__container-copy-btn">Sao chép mã</button>
+                  </div>
+                </div>
+              </div>
+              <!-- heets 1 item  -->
+              <!-- 1 itemm  -->
+              <div class="web__container-voucher-item col l-3 m-6 c-12">
+                <div class="web__container-voucher-inner">
+                  <div class="web__container-voucher-item-heading">
+                    Hàm Trung Freeship
+                  </div>
+                  <div class="web__container-voucher-item-desc">
+                    Poly dành tặng siêu lớn mã freeship 0đ (số lượng vô hạn).
+                    Đến ngày 4/8
+                  </div>
+                  <div class="web__container-vourcher-item-copy">
+                    <button class="web__container-copy-btn">Sao chép mã</button>
+                  </div>
+                </div>
+              </div>
+              <!-- heets 1 item  -->
+            </div>
+          </div>
+          <!-- het voucher  -->
+          <!-- sanr pham  -->
+          <div class="item__section grid wide">
+            <!-- 1 muc luc  -->
+            <div class="item__section-title col">
+              <div class="item__section-heading">Hình dán</div>
+              <div class="item__section-heading-all">Xem tất cả</div>
+            </div>
+            <!-- het 1 muc  -->
+            <!-- lisst san pham muc 1  -->
+            <div class="item__section-wide grid wide">
+              <div class="item__section-list row">
+                <!-- 1 sp  -->
+                <div class="item__section-item l-2-4 m-4 c-12 col">
+                  <div class="item__section-item-inner">
+                    <!-- anh  -->
+                    <div class="item__section-item-img">
+                      <img
+                        class="item__section-item-img_front"
+                        src="./assets/shopee/hinhxam.jpg"
+                      />
+                      <img
+                        class="item__section-item-img_back"
+                        src="./assets/shopee/hinhxam2.jpg"
+                      />
+                    </div>
+                    <!-- het anh  -->
+                    <!-- chi tiet 1 sp  -->
+                    <div class="item__section-item-desc">
+                      <div class="item__section-item-heading">
+                        Hình xăm chống nước cá tính
+                      </div>
+                      <div class="item__section-item-price">3.000đ</div>
+                    </div>
+                    <!-- het chi tiet 1 sp  -->
+                  </div>
+                </div>
+                <!-- het 1 sp  -->
+                <!-- 1 sp  -->
+                <div class="item__section-item l-2-4 m-4 c-12 col">
+                  <div class="item__section-item-inner">
+                    <!-- anh  -->
+                    <div class="item__section-item-img">
+                      <img
+                        class="item__section-item-img_front"
+                        src="./assets/shopee/h1b.jpg"
+                      />
+                      <img
+                        class="item__section-item-img_back"
+                        src="./assets/shopee/h1.jpg"
+                      />
+                    </div>
+                    <!-- het anh  -->
+                    <!-- chi tiet 1 sp  -->
+                    <div class="item__section-item-desc">
+                      <div class="item__section-item-heading">
+                        Miếng dán trang trí sổ tay
+                      </div>
+                      <div class="item__section-item-price">8.000đ</div>
+                    </div>
+                    <!-- het chi tiet 1 sp  -->
+                  </div>
+                </div>
+                <!-- het 1 sp  -->
+                <!-- 1 sp  -->
+                <div class="item__section-item l-2-4 m-4 c-12 col">
+                  <div class="item__section-item-inner">
+                    <!-- anh  -->
+                    <div class="item__section-item-img">
+                      <img
+                        class="item__section-item-img_front"
+                        src="./assets/shopee/h2a.jpg"
+                      />
+                      <img
+                        class="item__section-item-img_back"
+                        src="./assets/shopee/h2a.jpg"
+                      />
+                    </div>
+                    <!-- het anh  -->
+                    <!-- chi tiet 1 sp  -->
+                    <div class="item__section-item-desc">
+                      <div class="item__section-item-heading">
+                        Miếng dán trang trí điện thoại
+                      </div>
+                      <div class="item__section-item-price">4.000đ</div>
+                    </div>
+                    <!-- het chi tiet 1 sp  -->
+                  </div>
+                </div>
+                <!-- het 1 sp  -->
+               
+                <!-- 1 sp  -->
+                <div class="item__section-item l-2-4 m-4 c-12 col">
+                  <div class="item__section-item-inner">
+                    <!-- anh  -->
+                    <div class="item__section-item-img">
+                      <img
+                        class="item__section-item-img_front"
+                        src="./assets/shopee/h4a.jpg"
+                      />
+                      <img
+                        class="item__section-item-img_back"
+                        src="./assets/shopee/h4b.jpg"
+                      />
+                    </div>
+                    <!-- het anh  -->
+                    <!-- chi tiet 1 sp  -->
+                    <div class="item__section-item-desc">
+                      <div class="item__section-item-heading">
+                        Miếng dán hình chú vịt xinh xắn
+                      </div>
+                      <div class="item__section-item-price">
+                        13.000đ / 1.000đ 3tấm
+                      </div>
+                    </div>
+                    <!-- het chi tiet 1 sp  -->
+                  </div>
+                </div>
+                <!-- het 1 sp  -->
+                <!-- 1 sp  -->
+                <div class="item__section-item l-2-4 m-4 c-12 col">
+                  <div class="item__section-item-inner">
+                    <!-- anh  -->
+                    <div class="item__section-item-img">
+                      <img
+                        class="item__section-item-img_front"
+                        src="./assets/shopee/h5s.jpg"
+                      />
+                      <img
+                        class="item__section-item-img_back"
+                        src="./assets/shopee/h5b.jpg"
+                      />
+                    </div>
+                    <!-- het anh  -->
+                    <!-- chi tiet 1 sp  -->
+                    <div class="item__section-item-desc">
+                      <div class="item__section-item-heading">
+                        Hình dán họa tiết cây cối cổ điển
+                      </div>
+                      <div class="item__section-item-price">3.000đ</div>
+                    </div>
+                    <!-- het chi tiet 1 sp  -->
+                  </div>
+                </div>
+                <!-- het 1 sp  -->
+                <!-- 1 sp  -->
+                <div class="item__section-item l-2-4 m-4 c-12 col">
+                  <div class="item__section-item-inner">
+                    <!-- anh  -->
+                    <div class="item__section-item-img">
+                      <img
+                        class="item__section-item-img_front"
+                        src="./assets/shopee/h6a.jpg"
+                      />
+                      <img
+                        class="item__section-item-img_back"
+                        src="./assets/shopee/h6b.jpg"
+                      />
+                    </div>
+                    <!-- het anh  -->
+                    <!-- chi tiet 1 sp  -->
+                    <div class="item__section-item-desc">
+                      <div class="item__section-item-heading">
+                        Hình dán cô gái Anime Nhật bổn
+                      </div>
+                      <div class="item__section-item-price">
+                        13.000đ / 3tấm 1.000đ
+                      </div>
+                    </div>
+                    <!-- het chi tiet 1 sp  -->
+                  </div>
+                </div>
+                <!-- het 1 sp  -->
+                <!-- 1 sp  -->
+                <div class="item__section-item l-2-4 m-4 c-12 col">
+                  <div class="item__section-item-inner">
+                    <!-- anh  -->
+                    <div class="item__section-item-img">
+                      <img
+                        class="item__section-item-img_front"
+                        src="./assets/shopee/h7a.jpg"
+                      />
+                      <img
+                        class="item__section-item-img_back"
+                        src="./assets/shopee/h7b.jpg"
+                      />
+                    </div>
+                    <!-- het anh  -->
+                    <!-- chi tiet 1 sp  -->
+                    <div class="item__section-item-desc">
+                      <div class="item__section-item-heading">
+                        Hình dán trang trí hình gấu trúc hoạt hình
+                      </div>
+                      <div class="item__section-item-price">
+                        13.000đ / 3tấm 1.000đ
+                      </div>
+                    </div>
+                    <!-- het chi tiet 1 sp  -->
+                  </div>
+                </div>
+                <!-- het 1 sp  -->
+               
+                <!-- 1 sp  -->
+                <div class="item__section-item l-2-4 m-4 c-12 col">
+                  <div class="item__section-item-inner">
+                    <!-- anh  -->
+                    <div class="item__section-item-img">
+                      <img
+                        class="item__section-item-img_front"
+                        src="./assets/shopee/h9a.jpg"
+                      />
+                      <img
+                        class="item__section-item-img_back"
+                        src="./assets/shopee/h9b.jpg"
+                      />
+                    </div>
+                    <!-- het anh  -->
+                    <!-- chi tiet 1 sp  -->
+                    <div class="item__section-item-desc">
+                      <div class="item__section-item-heading">
+                        Hình dán trang trí sổ tay hình bình sữa
+                      </div>
+                      <div class="item__section-item-price">3tấm 1.000đ</div>
+                    </div>
+                    <!-- het chi tiet 1 sp  -->
+                  </div>
+                </div>
+                <!-- het 1 sp  -->
+                <!-- 1 sp  -->
+                <div class="item__section-item l-2-4 m-4 c-12 col">
+                  <div class="item__section-item-inner">
+                    <!-- anh  -->
+                    <div class="item__section-item-img">
+                      <img
+                        class="item__section-item-img_front"
+                        src="./assets/shopee/h10a.jpg"
+                      />
+                      <img
+                        class="item__section-item-img_back"
+                        src="./assets/shopee/h10b.jpg"
+                      />
+                    </div>
+                    <!-- het anh  -->
+                    <!-- chi tiet 1 sp  -->
+                    <div class="item__section-item-desc">
+                      <div class="item__section-item-heading">
+                        Hình dán trang trí sổ tay hình con cáo
+                      </div>
+                      <div class="item__section-item-price">3tấm 1.000đ</div>
+                    </div>
+                    <!-- het chi tiet 1 sp  -->
+                  </div>
+                </div>
+                <!-- het 1 sp  -->
+                <!-- 1 sp  -->
+                <div class="item__section-item l-2-4 m-4 c-12 col">
+                  <div class="item__section-item-inner">
+                    <!-- anh  -->
+                    <div class="item__section-item-img">
+                      <img
+                        class="item__section-item-img_front"
+                        src="./assets/shopee/h11a.jpg"
+                      />
+                      <img
+                        class="item__section-item-img_back"
+                        src="./assets/shopee/h11b.jpg"
+                      />
+                    </div>
+                    <!-- het anh  -->
+                    <!-- chi tiet 1 sp  -->
+                    <div class="item__section-item-desc">
+                      <div class="item__section-item-heading">
+                        Hình dán trang trí sổ tay hình chú chó cute
+                      </div>
+                      <div class="item__section-item-price">3tấm 1.000đ</div>
+                    </div>
+                    <!-- het chi tiet 1 sp  -->
+                  </div>
+                </div>
+                <!-- het 1 sp  -->
+               
+                <!-- 1 sp  -->
+                <div class="item__section-item l-2-4 m-4 c-12 col">
+                  <div class="item__section-item-inner">
+                    <!-- anh  -->
+                    <div class="item__section-item-img">
+                      <img
+                        class="item__section-item-img_front"
+                        src="./assets/shopee/h18a.jpg"
+                      />
+                      <img
+                        class="item__section-item-img_back"
+                        src="./assets/shopee/h18b.jpg"
+                      />
+                    </div>
+                    <!-- het anh  -->
+                    <!-- chi tiet 1 sp  -->
+                    <div class="item__section-item-desc">
+                      <div class="item__section-item-heading">
+                        Hình dán trang trí sổ tay 
+                      </div>
+                      <div class="item__section-item-price"> 3.000đ</div>
+                    </div>
+                    <!-- het chi tiet 1 sp  -->
+                  </div>
+                </div>
+                <!-- het 1 sp  -->
+                <!-- 1 sp  -->
+                <div class="item__section-item l-2-4 m-4 c-12 col">
+                  <div class="item__section-item-inner">
+                    <!-- anh  -->
+                    <div class="item__section-item-img">
+                      <img
+                        class="item__section-item-img_front"
+                        src="./assets/shopee/h19.jpg"
+                      />
+                      <img
+                        class="item__section-item-img_back"
+                        src="./assets/shopee/h19.jpg"
+                      />
+                    </div>
+                    <!-- het anh  -->
+                    <!-- chi tiet 1 sp  -->
+                    <div class="item__section-item-desc">
+                      <div class="item__section-item-heading">
+                        Hình xăm vũ trụ
+                      </div>
+                      <div class="item__section-item-price"> 3.000đ</div>
+                    </div>
+                    <!-- het chi tiet 1 sp  -->
+                  </div>
+                </div>
+                <!-- het 1 sp  -->
+                <!-- 1 sp  -->
+                <div class="item__section-item l-2-4 m-4 c-12 col">
+                  <div class="item__section-item-inner">
+                    <!-- anh  -->
+                    <div class="item__section-item-img">
+                      <img
+                        class="item__section-item-img_front"
+                        src="./assets/shopee/h20.jpg"
+                      />
+                      <img
+                        class="item__section-item-img_back"
+                        src="./assets/shopee/h20a.jpg"
+                      />
+                    </div>
+                    <!-- het anh  -->
+                    <!-- chi tiet 1 sp  -->
+                    <div class="item__section-item-desc">
+                      <div class="item__section-item-heading">
+                        Hình xăm mini
+                      </div>
+                      <div class="item__section-item-price"> 3.000đ</div>
+                    </div>
+                    <!-- het chi tiet 1 sp  -->
+                  </div>
+                </div>
+                <!-- het 1 sp  -->
+                <!-- 1 sp  -->
+                <div class="item__section-item l-2-4 m-4 c-12 col">
+                  <div class="item__section-item-inner">
+                    <!-- anh  -->
+                    <div class="item__section-item-img">
+                      <img
+                        class="item__section-item-img_front"
+                        src="./assets/shopee/h21a.jpg"
+                      />
+                      <img
+                        class="item__section-item-img_back"
+                        src="./assets/shopee/h21b.jpg"
+                      />
+                    </div>
+                    <!-- het anh  -->
+                    <!-- chi tiet 1 sp  -->
+                    <div class="item__section-item-desc">
+                      <div class="item__section-item-heading">
+                        Hình dán hình phi hành gia 
+                      </div>
+                      <div class="item__section-item-price"> 3tấm 1.000đ</div>
+                    </div>
+                    <!-- het chi tiet 1 sp  -->
+                  </div>
+                </div>
+                <!-- het 1 sp  -->
+              
+              </div>
+            </div>
+            <!-- het list  -->
+            <!-- nut  -->
+            <div class="item__section-footer col">
+              <button class="item__section-footer-btn">
+                <span class="item__section-footer-info">Xem thêm sản phẩm</span>
+                <a href="" class="item__section-footer-desc"
+                  >Hình dán  </a
+                >
+              </button>
+            </div>
+            <!-- het nut  -->
+          </div>
+          <!-- container  1 loại sp -->
+          <!-- sanr pham  -->
+          <div class="item__section grid wide">
+            <!-- 1 muc luc  -->
+            <div class="item__section-title col">
+              <div class="item__section-heading">Sticker</div>
+              <div class="item__section-heading-all">Xem tất cả</div>
+            </div>
+            <!-- het 1 muc  -->
+            <!-- lisst san pham muc 1  -->
+            <div class="item__section-wide grid wide">
+              <div class="item__section-list row">
+                <!-- 1 sp  -->
+               
+                <!-- het 1 sp  -->
+                 <!-- 1 sp  -->
+                 <div class="item__section-item l-2-4 m-4 c-12 col">
+                  <div class="item__section-item-inner">
+                    <!-- anh  -->
+                    <div class="item__section-item-img">
+                      <img
+                        class="item__section-item-img_front"
+                        src="./assets/shopee/h17a.jpg"
+                      />
+                      <img
+                        class="item__section-item-img_back"
+                        src="./assets/shopee/h17b.jpg"
+                      />
+                    </div>
+                    <!-- het anh  -->
+                    <!-- chi tiet 1 sp  -->
+                    <div class="item__section-item-desc">
+                      <div class="item__section-item-heading">
+                        Hình dán trang trí sổ tay hình mèo xanh cute
+                      </div>
+                      <div class="item__section-item-price">3tấm 1.000đ</div>
+                    </div>
+                    <!-- het chi tiet 1 sp  -->
+                  </div>
+                </div>
+                <!-- het 1 sp  -->
+                
+                <!-- 1 sp  -->
+                <div class="item__section-item l-2-4 m-4 c-12 col">
+                  <div class="item__section-item-inner">
+                    <!-- anh  -->
+                    <div class="item__section-item-img">
+                      <img
+                        class="item__section-item-img_front"
+                        src="./assets/shopee/h8a.jpg"
+                      />
+                      <img
+                        class="item__section-item-img_back"
+                        src="./assets/shopee/h8b.jpg"
+                      />
+                    </div>
+                    <!-- het anh  -->
+                    <!-- chi tiet 1 sp  -->
+                    <div class="item__section-item-desc">
+                      <div class="item__section-item-heading">
+                        Hình dán thú cưng chống thấm nước họa tiết hoạt hình
+                      </div>
+                      <div class="item__section-item-price">
+                        13.000đ / 3tấm 1.000đ
+                      </div>
+                    </div>
+                    <!-- het chi tiet 1 sp  -->
+                  </div>
+                </div>
+                <!-- het 1 sp  -->
+                <!-- 1 sp  -->
+                <div class="item__section-item l-2-4 m-4 c-12 col">
+                  <div class="item__section-item-inner">
+                    <!-- anh  -->
+                    <div class="item__section-item-img">
+                      <img
+                        class="item__section-item-img_front"
+                        src="./assets/shopee/h3a.jpg"
+                      />
+                      <img
+                        class="item__section-item-img_back"
+                        src="./assets/shopee/h3b.jpg"
+                      />
+                    </div>
+                    <!-- het anh  -->
+                    <!-- chi tiet 1 sp  -->
+                    <div class="item__section-item-desc">
+                      <div class="item__section-item-heading">
+                        Hình dán trong suốt cô gái dễ thương
+                      </div>
+                      <div class="item__section-item-price">
+                        13.000đ / 1.000đ 3 tấm
+                      </div>
+                    </div>
+                    <!-- het chi tiet 1 sp  -->
+                  </div>
+                </div>
+                <!-- het 1 sp  -->
+                
+                  </div>
+                </div>
+                <!-- het 1 sp  -->
+               
+                
+              </div>
+            </div>
+            <!-- het list  -->
+            <!-- nut  -->
+            <div class="item__section-footer col">
+              <button class="item__section-footer-btn">
+                <span class="item__section-footer-info">Xem thêm sản phẩm</span>
+                <a href="" class="item__section-footer-desc"
+                  >Sticker</a
+                >
+              </button>
+            </div>
+            <!-- het nut  -->
+          </div>
+          <!-- container  1 loại sp -->
+          <!-- container  1 loại sp -->
+          <!-- sanr pham  -->
+          <div class="item__section grid wide">
+            <!-- 1 muc luc  -->
+            <div class="item__section-title col">
+              <div class="item__section-heading">Góc học tập</div>
+              <div class="item__section-heading-all">Xem tất cả</div>
+            </div>
+            <!-- het 1 muc  -->
+            <!-- lisst san pham muc 1  -->
+            <div class="item__section-wide grid wide">
+              <div class="item__section-list row">
+                <!-- 1 sp  -->
+               
+                <!-- het 1 sp  -->
+               
+                <!-- 1 sp  -->
+                <div class="item__section-item l-2-4 m-4 c-12 col">
+                  <div class="item__section-item-inner">
+                    <!-- anh  -->
+                    <div class="item__section-item-img">
+                      <img
+                        class="item__section-item-img_front"
+                        src="./assets/shopee/h12aa.jpg"
+                      />
+                      <img
+                        class="item__section-item-img_back"
+                        src="./assets/shopee/h12a.jpg"
+                      />
+                    </div>
+                    <!-- het anh  -->
+                    <!-- chi tiet 1 sp  -->
+                    <div class="item__section-item-desc">
+                      <div class="item__section-item-heading">
+                        Bộ thước kẻ đa năng
+                      </div>
+                      <div class="item__section-item-price">15.000đ</div>
+                    </div>
+                    <!-- het chi tiet 1 sp  -->
+                  </div>
+                </div>
+                <!-- het 1 sp  -->
+                <!-- 1 sp  -->
+                <div class="item__section-item l-2-4 m-4 c-12 col">
+                  <div class="item__section-item-inner">
+                    <!-- anh  -->
+                    <div class="item__section-item-img">
+                      <img
+                        class="item__section-item-img_front"
+                        src="./assets/shopee/h13a.jpg"
+                      />
+                      <img
+                        class="item__section-item-img_back"
+                        src="./assets/shopee/h13b.jpg"
+                      />
+                    </div>
+                    <!-- het anh  -->
+                    <!-- chi tiet 1 sp  -->
+                    <div class="item__section-item-desc">
+                      <div class="item__section-item-heading">
+                        Sổ tay 32 trang Mini dễ thương 
+                      </div>
+                      <div class="item__section-item-price">4.000đ</div>
+                    </div>
+                    <!-- het chi tiet 1 sp  -->
+                  </div>
+                </div>
+                <!-- het 1 sp  -->
+                <!-- 1 sp  -->
+                <div class="item__section-item l-2-4 m-4 c-12 col">
+                  <div class="item__section-item-inner">
+                    <!-- anh  -->
+                    <div class="item__section-item-img">
+                      <img
+                        class="item__section-item-img_front"
+                        src="./assets/shopee/h14a.jpg"
+                      />
+                      <img
+                        class="item__section-item-img_back"
+                        src="./assets/shopee/h14b.jpg"
+                      />
+                    </div>
+                    <!-- het anh  -->
+                    <!-- chi tiet 1 sp  -->
+                    <div class="item__section-item-desc">
+                      <div class="item__section-item-heading">
+                        Bút quạt hình mèo (màu đen)
+                      </div>
+                      <div class="item__section-item-price">6.000đ</div>
+                    </div>
+                    <!-- het chi tiet 1 sp  -->
+                  </div>
+                </div>
+                <!-- het 1 sp  -->
+               
+                
+              </div>
+            </div>
+            <!-- het list  -->
+            <!-- nut  -->
+            <div class="item__section-footer col">
+              <button class="item__section-footer-btn">
+                <span class="item__section-footer-info">Xem thêm sản phẩm</span>
+                <a href="" class="item__section-footer-desc"
+                  >Góc học tập</a
+                >
+              </button>
+            </div>
+            <!-- het nut  -->
+          </div>
+          <!-- container  1 loại sp -->
+          <!-- container  1 loại sp -->
+          <!-- sanr pham  -->
+          <div class="item__section grid wide">
+            <!-- 1 muc luc  -->
+            <div class="item__section-title col">
+              <div class="item__section-heading">Sản phẩm khác</div>
+              <div class="item__section-heading-all">Xem tất cả</div>
+            </div>
+            <!-- het 1 muc  -->
+            <!-- lisst san pham muc 1  -->
+            <div class="item__section-wide grid wide">
+              <div class="item__section-list row">
+                <!-- 1 sp  -->
+               
+                <!-- het 1 sp  -->
+               
+                <!-- 1 sp  -->
+                <div class="item__section-item l-2-4 m-4 c-12 col">
+                  <div class="item__section-item-inner">
+                    <!-- anh  -->
+                    <div class="item__section-item-img">
+                      <img
+                        class="item__section-item-img_front"
+                        src="./assets/shopee/13a.jpg"
+                      />
+                      <img
+                        class="item__section-item-img_back"
+                        src="./assets/shopee/13b.jpg"
+                      />
+                    </div>
+                    <!-- het anh  -->
+                    <!-- chi tiet 1 sp  -->
+                    <div class="item__section-item-desc">
+                      <div class="item__section-item-heading">
+                        Quạt usb đa năng
+                      </div>
+                      <div class="item__section-item-price">10.000đ</div>
+                    </div>
+                    <!-- het chi tiet 1 sp  -->
+                  </div>
+                </div>
+                <!-- het 1 sp  -->
+               
+                <!-- 1 sp  -->
+                <div class="item__section-item l-2-4 m-4 c-12 col">
+                  <div class="item__section-item-inner">
+                    <!-- anh  -->
+                    <div class="item__section-item-img">
+                      <img
+                        class="item__section-item-img_front"
+                        src="./assets/shopee/h22a.jpg"
+                      />
+                      <img
+                        class="item__section-item-img_back"
+                        src="./assets/shopee/h22b.jpg"
+                      />
+                    </div>
+                    <!-- het anh  -->
+                    <!-- chi tiet 1 sp  -->
+                    <div class="item__section-item-desc">
+                      <div class="item__section-item-heading">
+                        Băng keo 1 mặt 13mm
+                      </div>
+                      <div class="item__section-item-price">4.000đ</div>
+                    </div>
+                    <!-- het chi tiet 1 sp  -->
+                  </div>
+                </div>
+                <!-- het 1 sp  -->
+               
+               
+                
+              </div>
+            </div>
+            <!-- het list  -->
+            <!-- nut  -->
+            <div class="item__section-footer col">
+              <button class="item__section-footer-btn">
+                <span class="item__section-footer-info">Xem thêm sản phẩm</span>
+                <a href="" class="item__section-footer-desc"
+                  >Khác</a
+                >
+              </button>
+            </div>
+            <!-- het nut  -->
+          </div>
+          <!-- container  1 loại sp -->
+        </div>
+      </div>
+      <div class="web__container-suggest">
+        <div class="grid wide">
+          <div class="row">
+            <div class="web__container-suggest-desc col">Gợi ý</div>
+            <div class="web__container-suggest-img-container">
+              <img
+                src="./assets/img/suggest-img1"
+                alt=""
+                class="web__container-suggest-img col l-4 m-6 c-12"
+              />
+              <img
+                src="./assets/img/suggest-img2"
+                alt=""
+                class="web__container-suggest-img col l-4 m-6 c-0"
+              />
+              <img
+                src="./assets/img/suggest-img3"
+                alt=""
+                class="web__container-suggest-img col l-4 m-0 c-0"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- het suggest  -->
+      <footer class="web__footer">
+        <div class="grid wide">
+          <div class="row">
+            <!-- cot 1  -->
+            <div class="web__footer-about col l-3 m-0 c-0">
+              <h4 class="web__footer-about-heading">Về DEGREY</h4>
+              <span class="web__footer-about-desc">
+                Cái tên Degrey được tạo ra rất ngẫu hứng, xuất phát từ “Chuỗi
+                ngày u buồn về sự nghiệp, tương lai trong quá khứ của chính
+                mình” – theo lời chia sẻ của Degrey’s founder.
+              </span>
+
+              <div class="web__footer-about-img">
+                <img
+                  src="./assets/img/web__footer-about-img"
+                  alt=""
+                  class="web__footer-about-img-link"
+                />
+              </div>
+            </div>
+            <!-- het cot 1  -->
+            <!-- cot 2  -->
+            <div class="web__footer-address col l-3 m-0 c-0">
+              <h4 class="web__footer-address-heading">Địa chỉ</h4>
+              <div class="web__footer-address-desc">
+                <div class="web__footer-address-desc-info">
+                  -Đà Lạt:
+                  <div class="web__footer-address-desc-info-inner">
+                    43 Huỳnh Văn Bánh P.17 Q.Phú Nhuận
+                  </div>
+
+                  <div class="web__footer-address-desc-info-inner">
+                    905 Luỹ Bán Bích P.Tân Thành Q.Tân Phú
+                  </div>
+
+                  <div class="web__footer-address-desc-info-inner">
+                    26 Lý Tự Trọng Q.1 - The New Playground
+                  </div>
+                </div>
+
+                <div class="web__footer-address-desc-info">
+                  Điện thoại:
+                  <div class="web__footer-address-desc-info-inner">
+                    0336311117
+                  </div>
+                </div>
+
+                <div class="web__footer-address-desc-info">
+                  Email:
+                  <div class="web__footer-address-desc-info-inner">
+                    degrey.vn@gmail.com
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end cot 2  -->
+            <!-- cot 3  -->
+            <div class="web__footer-support col l-3 m-0 c-0">
+              <h4 class="web__footer-support-desc">Hỗ trợ khách hàng</h4>
+              <ul class="web__footer-support-desc">
+                <li class="web__footer-support-desc-item">Shop</li>
+                <li class="web__footer-support-desc-item">
+                  Hướng dẫn đặt hàng
+                </li>
+                <li class="web__footer-support-desc-item">
+                  Chính sách và quy định
+                </li>
+                <li class="web__footer-support-desc-item">
+                  Chính sách bảo mật
+                </li>
+                <li class="web__footer-support-desc-item">Thông tin sở hữu</li>
+              </ul>
+            </div>
+            <!-- end 3  -->
+            <!-- 4 -->
+            <div class="web__footer-care col l-3 m-0 c-0">
+              <h4 class="web__footer-care-desc">Chăm sóc khách hàng</h4>
+              <div class="web__footer-care-mail">
+                <div class="web__footer-care-mail__phone-number">
+                  <i
+                    class="fa-solid fa-phone web__footer-care-mail__phone-number-icon"
+                  ></i>
+                  <div class="web__footer-care-mail-inner">0336311117</div>
+                </div>
+
+                <div class="web__footer-care-mail-inner2">
+                  degrey.vn@gmail.com
+                </div>
+              </div>
+            </div>
+            <!-- end 4  -->
+          </div>
+        </div>
+      </footer>
+      <footer class="web__footer-m-c">
+        <div class="grid wide web__footer-m-c-container">
+          <div class="row">
+            <div class="web__footer-m-c-info l-0 m-4 c-0">
+              <div class="web__footer-m-c-time-desc">Bán hàng 9:00 - 22:00</div>
+
+              <div class="web__footer-m-c-time-phone">
+                <i class="fa-solid fa-square-phone"></i>
+                0336311117
+              </div>
+            </div>
+
+            <div class="web__footer-m-c-info2 l-0 m-4 c-0">
+              <div class="web__footer-m-c-time-desc2">
+                Khiếu nại 9:00 - 21:30
+              </div>
+
+              <div class="web__footer-m-c-time-phone2">
+                <i
+                  class="fa-solid fa-square-phone web__footer-m-c-time-phone-icon2"
+                ></i>
+                0775913335
+              </div>
+            </div>
+
+            <div class="web__footer-m-c-info l-0 m-4 c-0">
+              <div class="web__footer-m-c-more-desc">
+                Xem thêm thông tin
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- cuoi  -->
+      <div class="web__footer-copyright">
+        Copyright © 2022  Poly VIETNAM.
+        <a href="https://www.haravan.com/" class="web__footer-copyright-link"
+          >Powered by Haravan</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
